@@ -1,4 +1,4 @@
-import { getCustomRepository } from "typeorm"
+import { getCustomRepository } from "typeorm";
 import { ComplimentsRepositories } from "../repositories/ComplimentsRepositories";
 import { TagsRepositories } from "../repositories/TagsRepositories";
 import { UsersRepositories } from "../repositories/UsersRepositories";
@@ -40,4 +40,4 @@ class CreateComplimentsService {
 
 }
 
-export { CreateComplimentsService }
+export { CreateComplimentsService };

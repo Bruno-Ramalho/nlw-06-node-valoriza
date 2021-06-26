@@ -1,7 +1,7 @@
 import { getCustomRepository } from "typeorm";
 
 import { compare } from "bcryptjs";
-import { sign } from "jsonwebtoken"
+import { sign } from "jsonwebtoken";
 
 import { UsersRepositories } from "../repositories/UsersRepositories";
 
@@ -43,4 +43,4 @@ class AuthenticateUserService {
   }
 }
 
-export { AuthenticateUserService }
+export { AuthenticateUserService };
